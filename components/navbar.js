@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Image from 'next/image'
 import {useState, useEffect} from 'react'
 
@@ -13,15 +14,15 @@ function MobileMenu( {open} ) {
 
 				<ul className="space-y-4 pl-4 text-center">
 
-					<li className="font-bold text-black-200 text-xl"><a href="/">ACASĂ</a></li>
+					<li className="font-bold text-black-200 text-xl"><Link href="/">ACASĂ</Link></li>
 
-					<li className="font-bold text-black-200 text-xl"><a href="/despre">DESPRE</a></li>
+					<li className="font-bold text-black-200 text-xl"><Link href="/despre">DESPRE</Link></li>
 
-					<li className="font-bold text-black-200 text-xl"><a href="/proiecte">PROIECTE</a></li>
+					<li className="font-bold text-black-200 text-xl"><Link href="/proiecte">PROIECTE</Link></li>
 
-					<li className="font-bold text-black-200 text-xl"><a href="/testimoniale">TESTIMONIALE</a></li>
+					<li className="font-bold text-black-200 text-xl"><Link href="/testimoniale">TESTIMONIALE</Link></li>
 
-					<li className="font-bold text-black-200 text-xl"><a href="/contact">CONTACT</a></li>
+					<li className="font-bold text-black-200 text-xl"><Link href="/contact">CONTACT</Link></li>
 
 				</ul>
 
@@ -47,15 +48,15 @@ const [open, setOpen] = useState(false);
 
 					<ul className="hidden lg:flex space-x-8">
 
-						<li className="font-bold text-black-200 text-xl"><a href="/" id="/" className="after:block after:relative after:w-0 after:h-1 after:bg-yellow after:transition-all after:duration-300 hover:after:w-[100%]">ACASĂ</a></li>
+						<li className="font-bold text-black-200 text-xl"><Link href="/" id="/" className="after:block after:relative after:w-0 after:h-1 after:bg-yellow after:transition-all after:duration-300 hover:after:w-[100%]">ACASĂ</Link></li>
 
-						<li className="font-bold text-black-200 text-xl"><a href="/despre" id="despre" className="after:block after:relative after:w-0 after:h-1 after:bg-yellow after:transition-all after:duration-300 hover:after:w-[100%]">DESPRE</a></li>
+						<li className="font-bold text-black-200 text-xl"><Link href="/despre" id="despre" className="after:block after:relative after:w-0 after:h-1 after:bg-yellow after:transition-all after:duration-300 hover:after:w-[100%]">DESPRE</Link></li>
 
-						<li className="font-bold text-black-200 text-xl"><a href="/proiecte" id="proiecte" className="after:block after:relative after:w-0 after:h-1 after:bg-yellow after:transition-all after:duration-300 hover:after:w-[100%]">PROIECTE</a></li>
+						<li className="font-bold text-black-200 text-xl"><Link href="/proiecte" id="proiecte" className="after:block after:relative after:w-0 after:h-1 after:bg-yellow after:transition-all after:duration-300 hover:after:w-[100%]">PROIECTE</Link></li>
 
-						<li className="font-bold text-black-200 text-xl"><a href="/testimoniale" className="after:block after:relative after:w-0 after:h-1 after:bg-yellow after:transition-all after:duration-300 hover:after:w-[100%]">TESTIMONIALE</a></li>
+						<li className="font-bold text-black-200 text-xl"><Link href="/testimoniale" className="after:block after:relative after:w-0 after:h-1 after:bg-yellow after:transition-all after:duration-300 hover:after:w-[100%]">TESTIMONIALE</Link></li>
 
-						<li className="font-bold text-black-200 text-xl"><a href="/contact" className="after:block after:relative after:w-0 after:h-1 after:bg-yellow after:transition-all after:duration-300 hover:after:w-[100%]">CONTACT</a></li>
+						<li className="font-bold text-black-200 text-xl"><Link href="/contact" className="after:block after:relative after:w-0 after:h-1 after:bg-yellow after:transition-all after:duration-300 hover:after:w-[100%]">CONTACT</Link></li>
 						
 					</ul>
 

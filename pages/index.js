@@ -31,7 +31,7 @@ export default function Home() {
 				
 				<picture className="absolute top-[110px] left-0 z-[-1] w-[100%] h-[100%] brightness-50">
 
-					<Image src={hero} className="object-cover w-[100%] h-[100%]" />
+					<Image src={hero} alt="" className="object-cover w-[100%] h-[100%]" />
 
 				</picture>
 
@@ -81,7 +81,7 @@ export default function Home() {
 
 					<picture className="block relative mt-24 mx-auto w-44 h-60 before:absolute before:top-4 before:right-4 before:block before:bg-yellow before:w-44 before:h-60 md:w-[30rem] md:h-[38rem] lg:before:top-4 lg:before:right-4 md:before:w-[30rem] md:before:h-[38rem] xl:mx-0">
 
-						<Image src={hero} className="absolute object-cover w-[100%] h-[100%]" />
+						<Image src={hero} alt="" className="absolute object-cover w-[100%] h-[100%]" />
 
 					</picture>
 
@@ -137,7 +137,7 @@ export default function Home() {
 
 					<picture className="block relative mt-24 mx-auto w-44 h-60 before:absolute before:top-4 before:right-4 before:block before:bg-yellow before:w-44 before:h-60 md:w-[30rem] md:h-[38rem] lg:before:top-4 lg:before:-right-4 md:before:w-[30rem] md:before:h-[38rem] xl:mx-0">
 
-						<Image src={hero} className="absolute object-cover w-[100%] h-[100%]" />
+						<Image src={hero} alt="" className="absolute object-cover w-[100%] h-[100%]" />
 
 					</picture>
 

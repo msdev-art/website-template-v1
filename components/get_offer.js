@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function GetOffer({ imgSource }) {
 
@@ -12,13 +13,13 @@ export default function GetOffer({ imgSource }) {
 
 					<p className="text-xl text-white mb-4">Acest text trebuie să încurajeze utilizatorul să acționeze.</p>
 
-					<a href="/" target="_blank"><div className="flex items-center justify-center font-bold text-black-200 w-[200px] h-12 bg-yellow">AFLĂ MAI MULTE</div></a>
+					<Link href="/" target="_blank"><div className="flex items-center justify-center font-bold text-black-200 w-[200px] h-12 bg-yellow">AFLĂ MAI MULTE</div></Link>
 
 				</div>
 
 				<picture className="block absolute w-[100%] h-[100%] top-0 left-0 z-[-1]">
 
-					<Image src={imgSource} className="object-cover w-[100%] h-[100%] brightness-[0.25]" />	
+					<Image src={imgSource} alt="" className="object-cover w-[100%] h-[100%] brightness-[0.25]" />	
 
 				</picture>
 

@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 import Layout from '@/components/layout'
 import Banner from '@/components/banner'
@@ -20,7 +21,7 @@ export default function Despre() {
 
 					<picture className="block relative mt-24 mx-auto w-44 h-60 before:absolute before:top-4 before:right-4 before:block before:bg-yellow before:w-44 before:h-60 md:w-[30rem] md:h-[38rem] lg:before:top-4 lg:before:right-4 md:before:w-[30rem] md:before:h-[38rem] xl:mx-0">
 
-						<Image src={hero} className="absolute object-cover w-[100%] h-[100%]" />
+						<Image src={hero} alt="" className="absolute object-cover w-[100%] h-[100%]" />
 
 					</picture>
 
@@ -62,7 +63,7 @@ export default function Despre() {
 							                     
 						<p className="text-lg text-black-100 my-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam debitis dolor consectetur dolorem inventore modi tenetur ex odit, amet beatae ad, doloribus tempora quae ab nulla minus temporibus at veritatis!</p>
 
-						<a href="/" target="_blank"><div className="flex items-center justify-center font-bold text-black-200 w-[200px] h-12 bg-yellow">AFLĂ MAI MULTE</div></a>
+						<Link href="/" target="_blank"><div className="flex items-center justify-center font-bold text-black-200 w-[200px] h-12 bg-yellow">AFLĂ MAI MULTE</div></Link>
 
 					</div>
 
