@@ -32,6 +32,7 @@ export default function Meta({ description, keywords}) {
 				<meta property="og:description" content={description}/>
 
 				<meta name="keywords" content={keywords}/>
+
 			</Head>
 
 
