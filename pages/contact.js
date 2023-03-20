@@ -2,14 +2,33 @@ import Form from '@/components/form'
 import Layout from '@/components/layout'
 import GetOffer from '@/components/get_offer'
 import Banner from '@/components/banner'
+import Meta from '@/components/meta'
 
 import hero from '@/public/images/home-2.jpg'
 
 export default function Contact() {
 
+	const title="Company Name | Contact";
+	const link="contact";
+	const description="";
+	const keywords="";
+	
+
 	return (
 
 		<Layout>
+
+			<Meta
+
+			title={title}
+
+			link={link}
+
+			description={description}
+
+			keywords={keywords}
+
+			/>
 
 			<Banner imgSrc={hero} title="Contact" />
 

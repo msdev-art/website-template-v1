@@ -7,9 +7,26 @@ import hero from '@/public/images/home-1.jpg'
 
 export default function Proiecte() {
 
+	const title="Portofoliu";
+	const link="portofoliu";
+	const description="";
+	const keywords="";
+
 	return (
 
 		<Layout>
+
+			<Meta
+
+			title={title}
+
+			link={link}
+
+			description={description}
+
+			keywords={keywords}
+
+			/>
 
 			<Banner imgSrc={hero} title="Portofoliu" />
 

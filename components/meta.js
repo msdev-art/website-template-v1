@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-export default function Meta({ description, keywords}) {
+export default function Meta({ title, link, description, keywords}) {
 
 	return (
 
@@ -16,17 +16,17 @@ export default function Meta({ description, keywords}) {
 				<link rel="icon" type="image/png" href="/images/favicon-32x32.png"/>
 				<link rel="icon" type="image/png" href="/images/favicon-16x16.png"/>
 				<link rel="manifest" href=""/>
-				<link rel="canonical" href="https://operadesigns.ro/"/>
+				<link rel="canonical" href={`https://website-template-v1.netlify.app/${link}`} />
 				<meta name="msapplication-Tilecolor" content=""/>
 				<meta name="theme-color" content=""/>
 
 				<meta property="og:type" content="website" />
-				<meta property="og:url" content="https://operadesigns.ro/"/>
+				<meta property="og:url" content={link}/>
 				<meta property="og:image" content=""/>
 				<meta property="og:image:secure_url" content=""/> 
 
-				<title>Opera Designs - Design și dezvoltare website de prezentare</title>
-				<meta property="og:title" content="Opera Designs - Design și dezvoltare website de prezentare"/>
+				<title>{title}</title>
+				<meta property="og:title" content={title}/>
 
 				<meta name="description" content={description}/>
 				<meta property="og:description" content={description}/>

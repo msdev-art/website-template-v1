@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import Image from 'next/image'
 
+import Meta from '@/components/meta'
 import Layout from '@/components/layout'
 import Card from '@/components/card'
 import GetOffer from '@/components/get_offer'
@@ -13,7 +14,26 @@ import icon3 from '@/public/icons/construction.png'
 
 export default function Home() {
 
+	const title = "Company name | Short description"
+	const link = ""
+	const description="Description about the services that the company provides. Include keywords"
+	const keywords="keyword"
+
 	return (
+
+		<>
+
+		<Meta
+
+		title={title}
+
+		link={link}
+
+		description={description}
+
+		keywords={keywords}
+
+		/>
 
 		<Layout>
 
@@ -202,6 +222,8 @@ export default function Home() {
 			<GetOffer imgSource={hero} />	
 
 		</Layout>
+
+		</>
 
 	)
 

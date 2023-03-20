@@ -8,8 +8,6 @@ export default function Layout({children}) {
 
 		<>
 
-		<Meta />
-
 		<header>
 
 			<Navbar />

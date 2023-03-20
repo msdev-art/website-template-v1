@@ -4,17 +4,35 @@ import Link from 'next/link'
 import Layout from '@/components/layout'
 import Banner from '@/components/banner'
 import GetOffer from '@/components/get_offer'
+import Meta from '@/components/meta'
 
 import check from '@/public/icons/check.svg'
 import hero from '@/public/images/home-2.jpg'
 
 export default function Despre() {
 
+	const title="Company Name | Despre";
+	const link="despre";
+	const description="";
+	const keywords="";
+
 	return (
 
 		<Layout>
 
+		<Meta
+
+		title={title}
+
+		link={link}
+
+		description={description}
+
+		keywords={keywords}
+
+		/>
 			<Banner title="Despre" imgSrc={hero} />
+
 			<section id="despre" className="w-[90vw] m-auto lg:w-[75vw]">
 
 				<div className="mt-24 xl:flex xl:justify-between ">

@@ -2,6 +2,7 @@ import Layout from '@/components/layout'
 import Banner from '@/components/banner'
 import GetOffer from '@/components/get_offer'
 import ShowcaseCard from '@/components/showcase_card'
+import Meta from '@/components/meta'
 
 import hero from '@/public/images/home-2.jpg'
 import img1 from '@/public/images/home-1.jpg'
@@ -12,9 +13,26 @@ import img6 from '@/public/images/home-6.jpg'
 
 export default function Portofoliu() {
 
+	const title="Company Name | Proiecte";
+	const link="proiecte";
+	const description="";
+	const keywords="";
+
 	return (
 
 		<Layout>
+
+			<Meta
+
+			title={title}
+
+			link={link}
+
+			description={description}
+
+			keywords={keywords}
+
+			/>
 
 			<Banner imgSrc={hero} title="Proiecte" />
 
