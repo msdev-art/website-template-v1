@@ -4,7 +4,7 @@ export default function Card({ source, service, content }) {
 
 	return (
 
-		<div className="text-center pb-16 md:px-4">
+		<div className="text-center max-w-sm">
 
 			<picture className="flex items-center justify-center m-auto mb-4 w-24 h-24 border-4 border-yellow rounded-full">
 

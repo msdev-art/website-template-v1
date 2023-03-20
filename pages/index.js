@@ -37,39 +37,51 @@ export default function Home() {
 
 			</section>
 
-			<section id="services" className="relative -mt-32 m-auto pt-12 px-4 w-[90%] bg-white border-t-8 border-t-yellow rounded-t-lg shadow-lg lg:w-[70vw]">
+			<section id="services" className="">
 
-				<div className="md:flex jusfiy-around items-center">
+				<div className="flex flex-col items-center relative -mt-32 justify-between m-auto py-12 px-4 w-[90%] bg-white border-t-8 border-t-yellow rounded-t-lg shadow-lg lg:flex-row lg:w-[70%]">
 
-					<Card
+					<div className="my-8">
 
-						source={icon1}
+						<Card
 
-						service="Serviciu 1"
+							source={icon1}
 
-						content="Descriere a serviciului oferit cu cuvinte cheie. 1 - 2 rânduri."
+							service="Serviciu 1"
 
-					/>
+							content="Descriere a serviciului oferit cu cuvinte cheie. 1 - 2 rânduri."
 
-					<Card
+							/>
 
-						source={icon2}
+					</div>
 
-						service="Serviciu 2"
+					<div className="my-8">
 
-						content="Descriere a serviciului oferit cu cuvinte cheie. 1 - 2 rânduri."
+						<Card
 
-					/>
+							source={icon2}
 
-					<Card
+							service="Serviciu 2"
 
-						source={icon3}
+							content="Descriere a serviciului oferit cu cuvinte cheie. 1 - 2 rânduri."
 
-						service="Serviciu 3"
+						/>
 
-						content="Descriere a serviciului oferit cu cuvinte cheie. 1 - 2 rânduri."
+					</div>
 
-					/>
+					<div className="my-8">
+
+						<Card
+
+							source={icon3}
+
+							service="Serviciu 3"
+
+							content="Descriere a serviciului oferit cu cuvinte cheie. 1 - 2 rânduri."
+
+						/>
+
+					</div>
 
 				</div>
 
