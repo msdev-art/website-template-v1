@@ -43,7 +43,7 @@ export default function Home() {
 
 					<h1 className="font-bold text-4xl text-white mb-20 after:block after:absolute after:left-[50%] after:-ml-12 after:w-24 after:h-1 after:bg-yellow after:mt-4 lg:text-6xl md:text-5xl">Titlul principal cu cuvinte cheie și locație</h1>
 
-					<p className="text-lg text-white mb-8">Ce alte servicii se oferă cu cuvinte cheie și locații. De preferat 2-3 rânduri.</p>
+					<p className="text-lg text-white mb-8">O scurtă descriere despre serviciile oferite, cu cuvinte cheie și locații.</p>
 
 					<div className="flex items-center justify-center font-bold text-center text-md text-black-200 w-48 h-12 bg-yellow"><a href="/" target="_blank" className="">CONTACTEAZĂ-NE</a></div>
 
